@@ -518,7 +518,7 @@ void KZGlobalService::SendMessage(const char *event, const T &data)
 	payload.Set("id", messageId);
 	payload.Set("event", event);
 	payload.Set("data", data);
-
+	META_CONPRINTF("Sending message %s\n", payload.ToString().c_str());
 	KZGlobalService::apiSocket->send(payload.ToString());
 }
 
@@ -531,6 +531,7 @@ void KZGlobalService::SendMessage(const char *event, const T &data, CallbackFunc
 	payload.Set("id", messageId);
 	payload.Set("event", event);
 	payload.Set("data", data);
+	META_CONPRINTF("Sending message %s\n", payload.ToString().c_str());
 
 	KZGlobalService::callbacks[messageId] = [messageId, callback](Json responseJson)
 	{
