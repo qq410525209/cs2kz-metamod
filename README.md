@@ -6,18 +6,18 @@ Automated translation linter reports for cs2kz-metamod.
 
 | Metric | Value |
 |--------|-------|
-| **Linter Errors** | 0 |
+| **Linter Errors** | 1 |
 | **Linter Warnings** | 25 |
 | **Total Languages** | 13 |
 | **Total Phrases** | 519 |
 | **Phrases Missing Translations** | 453 |
-| **Total Missing Entries** | 2389 |
+| **Total Missing Entries** | 2368 |
 | **Menu Files** | 9 |
 
 ## Language Coverage (Phrases)
 
 ```
-  chi (schinese)       [███████████████████░]  95.4% (495/519)
+  chi (schinese)       [███████████████████░]  99.4% (516/519)
   de (german)          [███████████████████░]  95.8% (497/519)
   en (english)         [████████████████████] 100.0% (519/519)
   es (spanish)         [███████████░░░░░░░░░]  55.5% (288/519)
@@ -79,9 +79,9 @@ Automated translation linter reports for cs2kz-metamod.
 
 ## Last Updated
 
-- **Commit:** [`4e85fa2`](https://github.com/qq410525209/cs2kz-metamod/commit/4e85fa2d79675787a3088e0fa0c62a3e987cf413)
-- **Time:** 2025-12-24 04:26:26 UTC
-- **Message:** Add tournament racing support (#454)
+- **Commit:** [`553bc9e`](https://github.com/qq410525209/cs2kz-metamod/commit/553bc9eed950f0d43290bd2cc734226360d9686e)
+- **Time:** 2025-12-24 04:48:23 UTC
+- **Message:** Add new schinese translations and fill in the missing schinese translations.
 
 ---
 

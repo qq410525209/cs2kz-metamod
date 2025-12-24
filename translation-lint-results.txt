@@ -10,12 +10,17 @@ Languages found across all files: ['chi', 'de', 'en', 'es', 'fi', 'it', 'ko', 'l
 Checking 9 menu files in '/home/runner/work/cs2kz-metamod/cs2kz-metamod/menu'...
 
 ======================================================================
-SUMMARY: 0 error(s), 25 warning(s)
+SUMMARY: 1 error(s), 25 warning(s)
 ======================================================================
 
 cs2kz-racing.phrases.txt (0 errors, 1 warnings)
 --------------------------------------------------
-  cs2kz-racing.phrases.txt:84: [WARNING] Formatting: Line has trailing whitespace
+  cs2kz-racing.phrases.txt:99: [WARNING] Formatting: Line has trailing whitespace
+
+cs2kz-timer-coursetop.phrases.txt (1 errors, 0 warnings)
+--------------------------------------------------
+  cs2kz-timer-coursetop.phrases.txt:125: [ERROR] Duplicate: Duplicate language entry 'en' in phrase 'Course Top Header - Points'
+    Context: First occurrence at line 124
 
 menu/ (0 errors, 24 warnings)
 --------------------------------------------------
@@ -45,7 +50,7 @@ menu/ (0 errors, 24 warnings)
   menu/:0: [WARNING] Missing: Missing menu translation file: vietnamese.txt (for language code 'vi')
 
 ======================================================================
-TOTAL: 0 error(s), 25 warning(s) in 2 file(s)
+TOTAL: 1 error(s), 25 warning(s) in 3 file(s)
 ======================================================================
 Missing translations report written to: missing-translations.txt
 Missing translations JSON written to: missing-translations.json
