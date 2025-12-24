@@ -3,7 +3,7 @@
     "total_languages": 13,
     "total_phrases": 519,
     "phrases_with_missing": 453,
-    "total_missing_entries": 2368,
+    "total_missing_entries": 2367,
     "all_languages": [
       "chi",
       "de",
@@ -57,9 +57,9 @@
   "languages": {
     "chi": {
       "name": "schinese",
-      "coverage_percent": 99.42,
-      "translated": 516,
-      "missing": 3,
+      "coverage_percent": 99.61,
+      "translated": 517,
+      "missing": 2,
       "missing_phrases": [
         {
           "file": "cs2kz-commands.phrases.txt",
@@ -72,12 +72,6 @@
           "phrase": "Command Description - kz_replays",
           "line": 1314,
           "english_text": "List saved replays."
-        },
-        {
-          "file": "cs2kz-timer-coursetop.phrases.txt",
-          "phrase": "Course Top Header - Points",
-          "line": 122,
-          "english_text": "Points"
         }
       ],
       "menu": {
@@ -21924,6 +21918,7 @@
           "line": 122,
           "english_text": "Points",
           "existing_languages": [
+            "chi",
             "de",
             "en",
             "fi",
@@ -21932,7 +21927,6 @@
             "ua"
           ],
           "missing_languages": [
-            "chi",
             "es",
             "it",
             "ko",
